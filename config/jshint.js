@@ -1,0 +1,67 @@
+/**
+ * @doc: http://jshint.com/docs/options/
+ *
+ */
+
+module.exports = {
+    src: ['<%= constants.appFiles.js %>'],
+    options: {
+        bitwise: true,
+        camelcase: true,
+        curly: true,
+        enforceall: false,
+        eqeqeq: true,
+        es3: false,
+        es5: false,
+        forin: true,
+        freeze: false,
+        globals: false,
+        globalstrict: false,
+        immed: true,
+        indent: 4,
+        iterator: false,
+        maxcomplexity: 0,
+        maxdepth: 6,
+        maxerr: 10,
+        maxlen: 500,
+        maxparams: 5,
+        maxstatements: 0,
+        newcap: true,
+        noarg: true,
+        nocomma: false,
+        noempty: true,
+        nonbsp: true,
+        nonew: false,
+        notypeof: true,
+        quotmark: "single",
+        shadow: false,
+        singleGroups: false,
+        undef: false,
+        unused: true,
+
+        // Relaxing options
+        asi: false,
+        boss: false,
+        debug: false,
+        eqnull: false,
+        esnext: false,
+        evil: false,
+        expr: false,
+        lastsemic: false,
+        laxcomma: false,
+        loopfunc: false,
+        moz: false,
+        multistr: false,
+        noyield: false,
+        phantom: true,
+        plusplus: false,
+        proto: true,
+        scripturl: false,
+        strict: true,
+        sub: false,
+        supernew: false,
+        validthis: false,
+        withstmt: false
+    },
+    globals: {}
+};
